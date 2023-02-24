@@ -1,3 +1,5 @@
+/* animation */
+
 #logo{
     animation-name:expand;
     animation-duration: 5s;
@@ -8,11 +10,15 @@
     to{width: 475px; opacity:1;}
 }
 
+/* mobile general  */
+
 body{
     font-family: 'Poppins',serif;
     background-image: url("/images/concrete_seamless.png");
     background-color: #f1f1f1;
 }
+
+/* header and links */
 
 header{
     display: flex;
@@ -29,6 +35,8 @@ header{
 a:visited{
     color:blue;
 }
+
+/* main content */
 
 .card > header{
     background: #288088;
@@ -65,6 +73,8 @@ a:visited{
     justify-content:center;
 }
 
+/* wide view */
+
 @media screen and (min-width: 900px){
 
 
@@ -94,6 +104,8 @@ a:visited{
 
 }
 
+/* reduced motion */
+
 @media (prefers-reduced-motion: reduce){
 
     #logo{
@@ -101,6 +113,8 @@ a:visited{
     }
 
 }
+
+/* print view */
 
 @media print{
 
